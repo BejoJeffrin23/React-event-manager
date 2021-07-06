@@ -18,7 +18,7 @@ console.log('event',event)
         
         <Col xs={15}>
           
-         <h2 style={{fontWeight:'normal'}}>{event.title}</h2>
+         <h2 style={{fontWeight:'normal',fontSize:'20px'}}>{event.title}</h2>
          <h3 style={{fontWeight:'normal',color:'#C0C0C0',marginTop:'-13px'}}>{event.location}</h3>
         
         </Col>
