@@ -13,7 +13,7 @@ margin:auto;
 .cardBackground{
     min-height:100vh;
     max-height:100%;
-    background-color:#1759d4;
+    background-color:#2222aa;
 }
 @media only screen and (min-width: 575px){
     width:50%;

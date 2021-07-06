@@ -1,5 +1,5 @@
 import Styled from 'styled-components';
-import image from '../../static/images/darkSky.jpg'
+import image from '../../static/images/homeImage.jpg'
 const HeaderLeftColumn = Styled.div`
 padding-left:20px
 `
@@ -8,13 +8,24 @@ background-image: url(${image});
 background-position: center;
 background-repeat: no-repeat;
 background-size: cover;
-
-.firstRow{
+height:29vh;
+@media only screen and (min-width: 575px){
+    height:35vh;
+} 
+.firstColumn{
+    padding-left:25px;
     margin-top:15px;
-    color:white
+    color:white;
+}
+.secondColumnParent{
+    background-color:rgba(0, 0, 0, .3);
+    height:29vh;
+    @media only screen and (min-width: 575px){
+        height:35vh;
+    } 
 }
 .secondColumn{
-    margin-top:60%; 
+    margin-top:40%; 
     @media only screen and (min-width: 575px){
         margin-top: 20%;
       } 

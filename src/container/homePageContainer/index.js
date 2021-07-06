@@ -51,7 +51,7 @@ const Gallery = () => {
         <CardStyleWrapper>
         <Card>
         <Header  personalEvents ={personalEvents} businessEvents={businessEvents}/>
-         <h3 style={{padding:'20px 0px 10px 20px'}}>INBOX</h3>
+         <h3 style={{padding:'20px 0px 10px 25px',color:'#C0C0C0'}}>INBOX</h3>
          {events.map((event,index)=>{
          return <Notes key={index} event={event}/>})}
        <ButtonWrapper><NavLink to='/addEvent'> <Button type="primary" shape="circle" icon={<PlusOutlined />} size='large' /></NavLink></ButtonWrapper>
